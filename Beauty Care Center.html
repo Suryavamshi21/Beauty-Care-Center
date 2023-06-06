@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h3>Beauty Care Center - Appointment</h3>
+    <form action="">
+        <table>
+            <tr>
+                <!--first Row Name-->
+                <td>Name*</td>
+                <td><input type="text" id="name" placeholder="enter your name"></td>
+            </tr>
+                <!--second row-->
+            <tr>
+                <td>Gender*</td>
+                <td><input type="radio"id="male" name="Gender"><label for="male">Male</label>
+                <input type="radio" id="female" name="Gender"><label for="female">Female</label> 
+                <input type="radio" id="others" name="Gender"><label for="others">Others</label></td>
+            </tr>
+            <!--third row-->
+            <tr>
+            <td>E-mail address</td>
+                <td><input type="email" id="email" placeholder="Example:abc@gmail.com"></td>
+            </tr>
+            <tr>
+                <td>Mobile No*</td>
+                <td><input type="tel" id="mobile no" placeholder="enter your mobile no"></td>
+            </tr>
+            <tr>
+                <td>Services*</td>
+                <td><input list="Services" name="services">
+            
+                <datalist id="services">
+                    <option value="Manicure"></option>
+                    <option value="Pedicure"></option>
+                    <option value="Facial"></option>
+                    <option value="Threading"></option>
+                    <option value="Waxing"></option>
+                    <option value="Hair SPA"></option>
+                    <option value="Body massage"></option>
+                    <option value="others"></option>
+                </datalist> </td> 
+            </tr>
+            <tr>
+                <td>Date*</td>
+                <td><input type="date" id="date"></td>
+            </tr>
+            <tr>
+                <td>Time*</td>
+                <td>
+                    <select id="time">
+                     <option value="10:30 AM">10:30AM</option>
+                     <option value="11:00AM">11:00AM</option>
+                     <option value="11:30AM">11:30AM</option>
+                     <option value="12:00PM">12:00PM</option>
+                     <option value="12:30PM">12:30PM</option>
+                     <option value="01:00PM">01:00PM</option>
+                     <option value="01:30PM">01:30PM</option>
+                     <option value="02:00PM">02:00PM</option>
+                     <option value=""></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea cols="30" rows="10"> </textarea></td>
+            </tr>
+        </table>
+        <div class="bottom-section">
+            <input type="checkbox" id="terms"><label for="terms"></label>
+            <a href="#submit">I agree to terms of service and privacy policy</a>
+            <br/>
+             <button id="submit">Submit</button>
+        
+        </div>
+    </form>
+</body>
+</html>

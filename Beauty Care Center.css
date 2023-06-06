@@ -1,0 +1,35 @@
+body{
+        background-color:#000000;
+        color: #487ef3;
+    }
+h3{
+    color:#ffffff ;
+    background-color: #2f4f4f;
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+    width: 35%;
+    font-family: Verdana;
+    border-radius: 6px;
+    border-style: 1px ;
+}
+table{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto; 
+    border-spacing: 5px;
+    border-radius: 6px;
+    border-style:3px groove;
+    color: white;
+}
+td{
+    width: 1px;
+    border-style: solid;
+    color: #f4a460;
+    padding: 8px;
+}
+
+
+.bottom-section{
+    margin: 50px 550px;
+}
